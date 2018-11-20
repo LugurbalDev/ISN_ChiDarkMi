@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Le ChiDarkMi</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+    <script type="application/javascript" src="js/app.js" defer></script>
+</head>
+
+<body>
+    <header id="title">Le ChiDarkMi</header>
+
+    <nav id="menu">
+        <ul>
+            <li id="rules" class="liste">Les Règles</li>
+            <li id="jeu" class="liste">Zone de jeu</li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <section id="regles">
+            ok
+        </section>
+
+        <section id="playZone">
+            <div id="choiceDifficulty">
+                Mode de Jeu :<br>
+                <label for="vsOrdi">Mode VS ordi :</label>
+                <input type="radio" name="difficulty" class="difficulty vsOrdi" id="vsOrdi">
+
+                <label for="2players">Mode 2 joueurs : </label>
+                <input type="radio" name="difficulty" class="difficulty 2players" id="2players"><br><br>
+
+                Choix disponibles : <br>
+
+                <ul class="liste_img">
+                    <li class="logo_liste"><img src="imgs/laser.png" class="logo"></li>
+                    <li class="logo_liste"><img src="imgs/papier.png" class="logo"></li>
+                    <li class="logo_liste"><img src="imgs/darksathi.png" class="logo"></li>
+                    <li class="logo_liste"><img src="imgs/pierre.png" class="logo pierre"></li>
+                    <li class="logo_liste"><img src="imgs/yoda.png" class="logo"></li>
+                </ul>
+
+                <div id="ordi"></div>
+                <div id="humain"></div>
+                <div id="result"></div>
+
+
+                <div id="score">
+                    Score : <br>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>
